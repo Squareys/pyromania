@@ -1,0 +1,49 @@
+# Blender MTL File: 'Animations.blend'
+# Material Count: 5
+
+newmtl Face
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.594305 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\The Master\Google Drive\Blender\Lego Minifig\face_smile.png
+
+newmtl Face_NONE
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.594305 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\The Master\\Google Drive\\Blender\\Lego Minifig\\face_smile.png
+
+newmtl Pants
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.040841 0.098035 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Skin
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.594305 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Top
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.014321 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2

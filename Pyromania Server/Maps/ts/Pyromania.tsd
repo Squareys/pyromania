@@ -1,0 +1,35 @@
+; --------------------------------------------------------
+; Tile Studio Definition File
+;
+;       PYROMANIA.TSD
+;
+; Version 1.0 - February, 2011
+; By Jonathan Hale (Jonathan-Hale@gmx.de)
+; --------------------------------------------------------
+
+#file Map.dat
+#tileset
+walknum:2
+walkon:17,-1
+destrnum:1
+destruct:5
+#map
+Name:<MapIdentifier>
+w:<MapWidth:"%3d">
+h:<MapHeight:"%3d">
+BG:
+#mapdata
+<TSBackTile:"%0d">,
+#end mapdata
+MG:
+#mapdata
+<TSMidTile:"%0d">,
+#end mapdata
+FG:
+#mapdata
+<TSFrontTile:"%0d">,
+#end mapdata
+#end map
+#end tileset
+#end file
+

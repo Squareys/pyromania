@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.exe.debug.716417801">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.exe.debug.716417801" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.exe.debug.716417801" name="Debug" parent="cdt.managedbuild.config.gnu.mingw.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.716417801." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.base.2040780777" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="cdt.managedbuild.target.gnu.platform.mingw.base.1247699106" name="Debug Platform" osList="win32" superClass="cdt.managedbuild.target.gnu.platform.mingw.base"/>
+							<builder buildPath="${workspace_loc:/Pyromania Server}/Debug" id="cdt.managedbuild.tool.gnu.builder.mingw.base.755171022" keepEnvironmentInBuildfile="false" name="CDT Internal Builder" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.base.2131933155" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.base">
+								<option id="gnu.both.asm.option.include.paths.459116328" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Pyromania Gamelogic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Net\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Foundation\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Util\include&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1137694713" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.982648870" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.191437342" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base">
+								<option id="gnu.cpp.compiler.option.include.paths.1231178465" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Pyromania Gamelogic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Net\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Foundation\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Util\include&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.optimization.level.276287679" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1858850205" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1051994774" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1872089459" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base">
+								<option id="gnu.c.compiler.option.include.paths.820171047" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Pyromania Gamelogic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Net\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Foundation\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Util\include&quot;"/>
+								</option>
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.535301258" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.981323908" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1918714654" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.879784899" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.1313352483" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base">
+								<option id="gnu.cpp.link.option.libs.192305537" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="pyromania"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="PocoUtil"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="PocoNet"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="PocoXML"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="PocoFoundation"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="ws2_32"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="Iphlpapi"/>
+								</option>
+								<option id="gnu.cpp.link.option.paths.1811661936" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Pyromania Gamelogic/Debug}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\lib\MinGW\ia32&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1709692322" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="Pyromania Gamelogic;" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/Pyromania Gamelogic"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/Pyromania Gamelogic/Debug"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="pyromania" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.exe.release.62613527">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.exe.release.62613527" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.exe.release.62613527" name="Release" parent="cdt.managedbuild.config.gnu.mingw.exe.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.release.62613527." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.base.958951096" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="cdt.managedbuild.target.gnu.platform.mingw.base.399528606" name="Debug Platform" osList="win32" superClass="cdt.managedbuild.target.gnu.platform.mingw.base"/>
+							<builder buildPath="${workspace_loc:/Pyromania Server}/Release" id="cdt.managedbuild.tool.gnu.builder.mingw.base.176853969" keepEnvironmentInBuildfile="false" name="CDT Internal Builder" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.base.982616493" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.base">
+								<option id="gnu.both.asm.option.include.paths.2002107346" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Foundation\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Net\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Util\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Pyromania Gamelogic/src}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1338231489" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1287435835" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.90669431" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base">
+								<option id="gnu.cpp.compiler.option.include.paths.1870910084" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\c++\libs\poco-1.4.6p1\Net\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\c++\libs\poco-1.4.6p1\Foundation\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\c++\libs\poco-1.4.6p1\Util\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\c++\SDL-2.0.0\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Foundation&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Net&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Util&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Net\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Foundation\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Util\include&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.optimization.level.275671433" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1025029153" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1976210635" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1259688559" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base">
+								<option id="gnu.c.compiler.option.include.paths.1921644271" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\c++\libs\poco-1.4.6p1\Net\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\c++\libs\poco-1.4.6p1\Foundation\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\c++\libs\poco-1.4.6p1\Util\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\c++\SDL-2.0.0\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Foundation&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Net&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Util&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Net\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Foundation\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\Util\include&quot;"/>
+								</option>
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.633670137" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.475122699" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1841696571" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.2102887056" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.677491517" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base">
+								<option id="gnu.cpp.link.option.libs.1818247780" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="PocoNet"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="CppUnit"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="PocoXML"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="Iphlpap"/>
+								</option>
+								<option id="gnu.cpp.link.option.paths.2131179440" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;D:\c++\libs\poco-1.4.6p1\lib\MinGW\ia32&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.87439731" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Poco Test Server.cdt.managedbuild.target.gnu.mingw.exe.1087791072" name="Executable" projectType="cdt.managedbuild.target.gnu.mingw.exe"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/Pyromania Server"/>
+		</configuration>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/Pyromania Server"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.716417801;cdt.managedbuild.config.gnu.mingw.exe.debug.716417801.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.191437342;cdt.managedbuild.tool.gnu.cpp.compiler.input.1051994774">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.716417801;cdt.managedbuild.config.gnu.mingw.exe.debug.716417801.;cdt.managedbuild.tool.gnu.c.compiler.mingw.base.145088327;cdt.managedbuild.tool.gnu.c.compiler.input.1787037615">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.716417801;cdt.managedbuild.config.gnu.mingw.exe.debug.716417801.;cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1872089459;cdt.managedbuild.tool.gnu.c.compiler.input.1918714654">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.716417801;cdt.managedbuild.config.gnu.mingw.exe.debug.716417801.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.1826437907;cdt.managedbuild.tool.gnu.cpp.compiler.input.1985039126">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.62613527;cdt.managedbuild.config.gnu.mingw.exe.release.62613527.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.1886467825;cdt.managedbuild.tool.gnu.cpp.compiler.input.1574631891">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.62613527;cdt.managedbuild.config.gnu.mingw.exe.release.62613527.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1881818532;cdt.managedbuild.tool.gnu.c.compiler.input.1607165724">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.716417801;cdt.managedbuild.config.gnu.mingw.exe.debug.716417801.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.1745299730;cdt.managedbuild.tool.gnu.cpp.compiler.input.1398443371">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.62613527;cdt.managedbuild.config.gnu.mingw.exe.release.62613527.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.90669431;cdt.managedbuild.tool.gnu.cpp.compiler.input.1976210635">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.62613527;cdt.managedbuild.config.gnu.mingw.exe.release.62613527.;cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1259688559;cdt.managedbuild.tool.gnu.c.compiler.input.1841696571">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.716417801;cdt.managedbuild.config.gnu.mingw.exe.debug.716417801.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1412527858;cdt.managedbuild.tool.gnu.c.compiler.input.88185005">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>
