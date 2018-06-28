@@ -1,0 +1,13 @@
+#Makefile for Bomberman Server and Bomberman Client
+
+CPP=g++
+
+CPPFLAGS=-mwindows -D__GTHREAD_HIDE_WIN32API -Wall
+LIBS=-lalleg
+
+OBJECTS=Main.o Util.o Map.o Game.o
+
+all: Bomberman
+
+Bomberman: ${OBJECTS}
+	${CPP} -o ../../bin/Bomberman.exe ${OBJECTS} ${CPPFLAGS} ${LIBS}

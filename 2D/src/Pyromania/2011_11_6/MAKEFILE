@@ -1,0 +1,22 @@
+#Makefile for Pyromania Server and Pyromania Client
+
+CPP=g++
+
+CPPFLAGS=-mwindows -D__GTHREAD_HIDE_WIN32API -Wall
+LIBS=-lalleg
+
+OBJECTS=Main.o Util.o Joypad.o Game.o FrameCounter.o World.o Map.o Sprite.o \
+	Bomb.o Explosion.o Player.o 
+
+all: Pyromania
+
+Pyromania: ${OBJECTS}
+	${CPP} -o ../../bin/Pyromania.exe ${OBJECTS} ${CPPFLAGS} ${LIBS}
+
+clean: clear Pyromania
+
+clear: 
+	del *.o
+
+Server:  ${OBJECTS}
+	${CPP} -o ../../bin/Server.exe -DServer ${OBJECTS} ${CPPFLAGS} ${LIBS} 

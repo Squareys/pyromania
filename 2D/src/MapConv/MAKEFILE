@@ -1,0 +1,13 @@
+#Makefile for Bomberman Map Converter
+
+CPP=g++
+
+CPPFLAGS= -Wall
+LIBS=-lalleg44.dll
+
+OBJECTS=main.o
+
+All: MapConv
+
+MapConv: ${OBJECTS}
+	${CPP} -o ../../bin/MapConv.exe ${OBJECTS} ${CPPFLAGS} ${LIBS}

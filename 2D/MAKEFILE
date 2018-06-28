@@ -1,0 +1,17 @@
+#Makefile for all Bomberman relatet Projekts
+
+CPP=g++
+
+CPPFLAGS=-mwindows -D__GTHREAD_HIDE_WIN32API -Wall
+LIBS=-lalleg
+
+include src/Pyromania/makefile
+
+OBJDIR := bin/Objects
+
+all: Pyromania MapConv
+
+clean: clear Pyromania MapConv
+
+clear: 
+	del $(OBJDIR)/%.o	
