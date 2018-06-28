@@ -1,9 +1,0 @@
-eclipse.preferences.version=1
-environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.559673780/MINGDIR/delimiter=;
-environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.559673780/MINGDIR/operation=append
-environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.559673780/MINGDIR/value=c\:\\c++\\compiler\\MinGW\\bin
-environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.559673780/PATH/delimiter=;
-environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.559673780/PATH/operation=replace
-environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.559673780/PATH/value=c\:\\c++\\compiler\\MinGW\\bin
-environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.559673780/append=true
-environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.559673780/appendContributed=true
